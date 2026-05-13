@@ -11,10 +11,10 @@ export interface TokenCountOptions {
 }
 
 /** Default max context window (128k tokens) */
-export const DEFAULT_MAX_CONTEXT = 128_000;
+export const DEFAULT_MAX_CONTEXT = 1_000_000;
 
 /** Default threshold ratio (50% of max context) */
-export const DEFAULT_THRESHOLD_RATIO = 0.5;
+export const DEFAULT_THRESHOLD_RATIO = 0.75;
 
 /**
  * Message interface for token counting
